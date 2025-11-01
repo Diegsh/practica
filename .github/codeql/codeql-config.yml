@@ -1,0 +1,16 @@
+name: "hashpy-codeql-config"
+queries:
+  - uses: security-extended
+  - uses: security-and-quality
+
+paths:
+  - .
+paths-ignore:
+  - "**/.venv/**"
+  - "**/venv/**"
+  - "**/__pycache__/**"
+  - "**/migrations/**"
+  - "**/node_modules/**"
+  - "**/*.md"
+  - "**/*.txt"
+  - "users.db"
